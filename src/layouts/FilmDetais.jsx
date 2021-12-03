@@ -8,7 +8,6 @@ import FilmImg from "../components/FilmDetails/FilmImg";
 
 export default function FilmDetais() {
   const state = useSelector((state) => state.searchReducer.singleFilmData);
-  console.log(state);
   return (
     <div>
       <NavBar />

@@ -7,7 +7,7 @@ import Home from "./layouts/Home";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/filmgallery/">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/film-details" component={FilmDetais} />

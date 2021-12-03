@@ -7,7 +7,6 @@ const initialState = {
 };
 
 function searchReducer(state = initialState, action) {
-  console.log(state);
   switch (action.type) {
     case Actions.LOAD_DATA_EGIN:
       return { ...state, loading: true };

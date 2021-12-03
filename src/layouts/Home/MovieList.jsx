@@ -15,7 +15,7 @@ export default function MovieList({ storeVal }) {
         {movies ? (
           movies.map((val, key) => {
             return (
-              <Grid item xs={12} sm={6} md={4} lg={3}>
+              <Grid key={key} item xs={12} sm={6} md={4} lg={3}>
                 <SingleMovie key={key} movie={val} />{" "}
               </Grid>
             );
